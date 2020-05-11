@@ -92,7 +92,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
 
-
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
@@ -153,9 +152,11 @@ function test_input($data) {
   <?php echo $restaurantErr;?></span> </p>
   
   <br>
-  
-  <input type="submit" name="submit" value="Submit">  
+   
+      <input type="submit" name="submit" value="Done">
+	
 </form>
+
 
 <br><br>
 
